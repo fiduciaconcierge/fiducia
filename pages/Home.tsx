@@ -175,7 +175,7 @@ const Home: React.FC = () => {
           </div>
           
           <img 
-            src="/images/p1.jpg" 
+            src="/fiducia/images/p1.jpg" 
             alt="Luxury Private Jet Interior" 
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter,transform] duration-700 group-hover:scale-105"
           />
@@ -247,7 +247,7 @@ const Home: React.FC = () => {
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
             </div>
-            <img src="/images/p4.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Private Jet Aviation" />
+            <img src="/fiducia/images/p4.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Private Jet Aviation" />
             <div className="absolute inset-0 flex flex-col justify-end p-12 bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <h3 className="text-2xl font-serif text-[#d4af37] group-hover:text-white transition-colors duration-500">Aviation</h3>
               <p className="text-sm text-neutral-400 mt-2 font-light group-hover:text-neutral-300 transition-colors duration-500">Global private jet charter without restriction.</p>
@@ -269,7 +269,7 @@ const Home: React.FC = () => {
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
             </div>
-            <img src="/images/p6.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Luxury Swiss Watches" />
+            <img src="/fiducia/images/p6.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Luxury Swiss Watches" />
             <div className="absolute inset-0 flex flex-col justify-end p-12 bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <h3 className="text-2xl font-serif text-[#d4af37] group-hover:text-white transition-colors duration-500">Horology</h3>
               <p className="text-sm text-neutral-400 mt-2 font-light group-hover:text-neutral-300 transition-colors duration-500">Exclusive timepieces beyond retail.</p>
@@ -291,7 +291,7 @@ const Home: React.FC = () => {
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
             </div>
-            <img src="/images/p7.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Mansion Estate" />
+            <img src="/fiducia/images/p7.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Mansion Estate" />
             <div className="absolute inset-0 flex flex-col justify-end p-12 bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <h3 className="text-2xl font-serif text-[#d4af37] group-hover:text-white transition-colors duration-500">Estates</h3>
               <p className="text-sm text-neutral-400 mt-2 font-light group-hover:text-neutral-300 transition-colors duration-500">Private islands and legacy properties.</p>
