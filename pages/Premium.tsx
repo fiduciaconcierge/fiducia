@@ -93,7 +93,7 @@ const Premium: React.FC = () => {
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#d4af37]/20 rounded-full blur-2xl" />
             </div>
-            <img src="/images/p13.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Exclusive Lifestyle Club" />
+            <img src="/fiducia/images/p13.jpg" className="w-full h-full object-cover transition-[filter,transform] duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" alt="Exclusive Lifestyle Club" />
             <div className="absolute inset-0 flex flex-col justify-end p-12 bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <p className="text-sm text-neutral-400 mt-2 font-light group-hover:text-neutral-300 transition-colors duration-500">Private clubs and elite Networks.</p>
             </div>
