@@ -38,7 +38,7 @@ const About: React.FC = () => {
                className="w-full md:w-1/2 h-[700px] relative overflow-hidden"
             >
                 <img 
-                    src="/fiducia/images/p24.jpg" 
+                    src="/images/p24.jpg" 
                     className="w-full h-full object-cover luxury-filter"
                     alt="Geneva Office"
                 />

@@ -17,17 +17,17 @@ export const PREMIUM_SERVICES: ServiceItem[] = [
   {
     title: 'Global Access',
     description: 'Priority reservations at Michelin-starred dining and sold-out cultural events worldwide.\nExclusive invitations to private gallery openings and VIP exhibitions.\nComplimentary upgrades at partner hotels and resorts globally.',
-    image: '/fiducia/images/p8.jpg',
+    image: '/images/p8.jpg',
   },
   {
     title: 'Travel Logistics',
     description: 'Seamless private aviation chartering, yacht brokerage, and secure ground transport.\n24/7 personal travel concierge with real-time itinerary adjustments.\nPriority customs clearance and baggage handling at international terminals.',
-    image: '/fiducia/images/p9.jpg',
+    image: '/images/p9.jpg',
   },
   {
     title: 'Art Advisory',
     description: 'Expert guidance on acquisition and curation from world-renowned specialists.\nPrivate viewings at major auction houses and artist studios.\nAuthentication and provenance verification for high-value acquisitions.',
-    image: '/fiducia/images/p10.jpg',
+    image: '/images/p10.jpg',
   },
 ];
 
@@ -35,17 +35,17 @@ export const ELITE_SERVICES: ServiceItem[] = [
   {
     title: 'Off-Market Real Estate',
     description: 'Access to properties that never list publicly. From private islands to historical estates.',
-    image: '/fiducia/images/p16.jpg',
+    image: '/images/p16.jpg',
   },
   {
     title: 'Legacy Management',
     description: 'Comprehensive succession planning, philanthropy structure, and next-generation education.',
-    image: '/fiducia/images/p17.jpg',
+    image: '/images/p17.jpg',
   },
   {
     title: 'Diplomatic Services',
     description: 'Complex cross-border bureaucratic assistance and high-level security coordination.',
-    image: '/fiducia/images/p18.jpg',
+    image: '/images/p18.jpg',
   },
 ];
 

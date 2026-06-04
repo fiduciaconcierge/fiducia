@@ -112,10 +112,10 @@ const Elite: React.FC = () => {
                 <p className="text-neutral-500 uppercase tracking-widest text-xs">Unlock the globe</p>
              </div>
              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[400px]">
-                <img src="/fiducia/images/p19.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Private Exclusive Access" />
-                <img src="/fiducia/images/p12.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="VIP Gala Events" />
-                <img src="/fiducia/images/p20.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="High Society Lifestyle" />
-                <img src="/fiducia/images/p22.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Global Private Jet Access" />
+                <img src="/images/p19.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Private Exclusive Access" />
+                <img src="/images/p12.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="VIP Gala Events" />
+                <img src="/images/p20.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="High Society Lifestyle" />
+                <img src="/images/p22.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Global Private Jet Access" />
              </div>
         </section>
 
