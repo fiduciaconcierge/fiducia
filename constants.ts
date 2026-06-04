@@ -17,7 +17,7 @@ export const PREMIUM_SERVICES: ServiceItem[] = [
   {
     title: 'Global Access',
     description: 'Priority reservations at Michelin-starred dining and sold-out cultural events worldwide.\nExclusive invitations to private gallery openings and VIP exhibitions.\nComplimentary upgrades at partner hotels and resorts globally.',
-    image: '/fiducia/images/p8 (2).jpg',
+    image: '/fiducia/images/p8.jpg',
   },
   {
     title: 'Travel Logistics',
