@@ -174,7 +174,7 @@ const Membership: React.FC = () => {
             onClick={() => navigate('/membership/premium')}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="border border-neutral-800 p-12 hover:border-[#d4af37]/50 transition-all duration-700 relative overflow-hidden">
+            <div className="border border-neutral-800 p-8 md:p-12 hover:border-[#d4af37]/50 transition-all duration-700 relative overflow-hidden">
               {/* Premium glow effect on hover */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/10 via-transparent to-transparent" />
@@ -227,7 +227,7 @@ const Membership: React.FC = () => {
             onClick={() => navigate('/membership/elite')}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="relative border border-[#d4af37]/30 p-12 hover:border-[#d4af37] transition-all duration-700 relative overflow-hidden">
+            <div className="relative border border-[#d4af37]/30 p-8 md:p-12 hover:border-[#d4af37] transition-all duration-700 relative overflow-hidden">
               {/* Elite glow effect on hover */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/20 via-transparent to-transparent" />

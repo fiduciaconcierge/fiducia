@@ -60,7 +60,7 @@ const Elite: React.FC = () => {
         </section>
 
         {/* Elite Services Grid */}
-        <section className="px-6 md:px-12 max-w-[1800px] mx-auto grid grid-cols-1 gap-40">
+        <section className="px-6 md:px-12 max-w-[1800px] mx-auto grid grid-cols-1 gap-24 md:gap-40">
           {ELITE_SERVICES.map((service, index) => (
             <motion.div 
               key={service.title}
@@ -74,7 +74,7 @@ const Elite: React.FC = () => {
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 border border-neutral-900 hover:border-[#d4af37]/30 transition-colors duration-700">
                 
                 {/* Image Area */}
-                <div className={`lg:col-span-7 h-[600px] overflow-hidden relative ${index % 2 === 1 ? 'lg:order-last' : ''}`}>
+                <div className={`lg:col-span-7 h-[300px] md:h-[600px] overflow-hidden relative ${index % 2 === 1 ? 'lg:order-last' : ''}`}>
                    <img 
                     src={service.image} 
                     alt={service.title}
@@ -87,7 +87,7 @@ const Elite: React.FC = () => {
                 </div>
 
                 {/* Text Area */}
-                <div className="lg:col-span-5 p-16 flex flex-col justify-center bg-[#0a0a0a] border-l border-neutral-900 relative">
+                <div className="lg:col-span-5 p-8 md:p-16 flex flex-col justify-center bg-[#0a0a0a] border-l border-neutral-900 relative">
                   <div className="absolute top-0 right-0 p-4 opacity-10">
                     <Logo className="w-32 h-32 text-white" />
                   </div>
@@ -111,7 +111,7 @@ const Elite: React.FC = () => {
                 <h2 className="text-3xl font-serif text-[#d4af37]">Private Access</h2>
                 <p className="text-neutral-500 uppercase tracking-widest text-xs">Unlock the globe</p>
              </div>
-             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[400px]">
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[300px] md:h-[400px]">
                 <img src="/images/p19.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Private Exclusive Access" />
                 <img src="/images/p12.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="VIP Gala Events" />
                 <img src="/images/p20.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="High Society Lifestyle" />

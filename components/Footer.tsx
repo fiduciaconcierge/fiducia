@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from './Logo';
-import { Instagram, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -28,19 +27,6 @@ const Footer: React.FC = () => {
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=private@fiduciagroup.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300">private@fiduciagroup.in</a>
             </div>
           </div>
-
-          {/* Socials */}
-          {/*
-          <div className="space-y-6 flex flex-col items-center">
-            <h4 className="uppercase text-xs tracking-[0.2em] text-neutral-300">Socials</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                <Linkedin strokeWidth={1} size={20} />
-              </a>
-            </div>
-          </div>
-          */}     
-          
 
         </div>
       </div>

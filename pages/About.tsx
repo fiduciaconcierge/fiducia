@@ -29,13 +29,13 @@ const About: React.FC = () => {
         <div className="w-full h-[1px] bg-gradient-to-r from-[#d4af37] to-transparent max-w-xl opacity-50"></div>
       </section>
 
-      <div className="max-w-[1800px] mx-auto px-6 space-y-40 pb-40">
+      <div className="max-w-[1800px] mx-auto px-6 space-y-24 md:space-y-40 pb-40">
         
         {/* 2. ORIGINS (Image Left, Text Right) */}
         <section className="flex flex-col md:flex-row gap-24 items-center">
             <motion.div 
                style={{ y: yParallax }}
-               className="w-full md:w-1/2 h-[700px] relative overflow-hidden"
+               className="w-full md:w-1/2 h-[400px] md:h-[700px] relative overflow-hidden"
             >
                 <img 
                     src="/images/p24.jpg" 

@@ -92,7 +92,7 @@ const Newsletter: React.FC = () => {
             <div className="absolute top-0 left-0 w-40 h-40 bg-[#d4af37]/15 rounded-full blur-3xl" />
             <div className="absolute bottom-0 right-0 w-48 h-48 bg-[#d4af37]/10 rounded-full blur-3xl" />
           </div>
-          <h1 className="text-7xl md:text-9xl font-serif text-neutral-100 mb-6 relative group-hover:text-[#d4af37] transition-all duration-700 ease-out">The Ledger</h1>
+          <h1 className="text-6xl md:text-9xl font-serif text-neutral-100 mb-6 relative group-hover:text-[#d4af37] transition-all duration-700 ease-out">The Ledger</h1>
           <p className="text-neutral-500 uppercase tracking-[0.4em] text-sm relative group">
             <span className="absolute inset-0 blur-1xl bg-[#d4af37]/10 scale-150 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-1000 ease-out" />
             <span className="relative z-10 group-hover:text-[#d4af37] transition-all duration-700 ease-out">Curated Intelligence for the Elite</span>
@@ -115,7 +115,7 @@ const Newsletter: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 disabled={isSubmitting}
-                className="bg-transparent border-none outline-none text-neutral-300 placeholder-neutral-600 w-80 font-serif text-lg italic group-hover:placeholder-neutral-500 transition-all duration-500 ease-out disabled:opacity-50"
+                className="bg-transparent border-none outline-none text-neutral-300 placeholder-neutral-600 w-full min-w-0 sm:w-80 font-serif text-lg italic group-hover:placeholder-neutral-500 transition-all duration-500 ease-out disabled:opacity-50"
               />
               <button
                 type="submit"

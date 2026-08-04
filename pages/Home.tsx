@@ -44,7 +44,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Cinematic Logo Background */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] z-10 pointer-events-none">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[80vmin] h-[80vmin] max-w-[600px] max-h-[400px] md:h-[600px] overflow-hidden z-10 pointer-events-none">
           {/* Cinematic video layer */}
           <div className="absolute inset-0 rounded-full overflow-hidden opacity-30">
             <video 
@@ -164,7 +164,7 @@ const Home: React.FC = () => {
         
         <motion.div 
           style={{ y: y1 }}
-          className="w-full md:w-1/2 h-[800px] overflow-hidden relative group cursor-pointer"
+          className="w-full md:w-1/2 h-[400px] md:h-[800px] overflow-hidden relative group cursor-pointer"
           whileHover={{ scale: 1.02 }}
         >
           {/* Golden glow overlay */}
@@ -179,7 +179,7 @@ const Home: React.FC = () => {
             alt="Luxury Private Jet Interior" 
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter,transform] duration-700 group-hover:scale-105"
           />
-          <div className="absolute bottom-12 left-[-20px] bg-black p-8 border border-neutral-900 shadow-2xl group-hover:border-[#d4af37]/50 transition-colors duration-700">
+          <div className="absolute bottom-12 left-4 md:-left-5 bg-black p-8 border border-neutral-900 shadow-2xl group-hover:border-[#d4af37]/50 transition-colors duration-700">
              <p className="font-serif text-2xl text-[#d4af37] group-hover:text-white transition-colors duration-500">"Time is the only asset<br/>that money cannot buy."</p>
           </div>
         </motion.div>
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
           <div className="absolute top-0 left-0 w-full h-full">
             <div className="absolute top-10 left-10 w-[400px] h-[400px] bg-[#d4af37]/15 rounded-full blur-3xl" />
             <div className="absolute bottom-10 right-10 w-[500px] h-[500px] bg-[#d4af37]/12 rounded-full blur-3xl" />
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#d4af37]/10 rounded-full blur-3xl" />
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] md:h-[600px] bg-[#d4af37]/10 rounded-full blur-3xl" />
             <div className="absolute top-1/4 right-1/4 w-[300px] h-[300px] bg-[#d4af37]/8 rounded-full blur-3xl" />
             <div className="absolute bottom-1/4 left-1/4 w-[350px] h-[350px] bg-[#d4af37]/6 rounded-full blur-3xl" />
           </div>
@@ -238,7 +238,7 @@ const Home: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="group relative h-[600px] overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
@@ -260,7 +260,7 @@ const Home: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="group relative h-[600px] lg:mt-24 overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] lg:mt-24 overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
@@ -282,7 +282,7 @@ const Home: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="group relative h-[600px] overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
@@ -302,11 +302,11 @@ const Home: React.FC = () => {
 
       {/* 5. MEMBERSHIP PREVIEW (Interactive) - Seamless Flow */}
       <section className="py-32 max-w-[1800px] mx-auto px-6">
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 h-[80vh]">
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 h-auto md:h-[80vh]">
             
             {/* Premium */}
             <div 
-              className="relative group overflow-hidden cursor-pointer"
+              className="relative group overflow-hidden cursor-pointer min-h-[50vh] md:min-h-0"
               onClick={() => navigate('/membership/premium')}
             >
               <div className="absolute inset-0 bg-neutral-900 z-0">
@@ -321,7 +321,7 @@ const Home: React.FC = () => {
 
             {/* Elite */}
             <div 
-              className="relative group overflow-hidden cursor-pointer"
+              className="relative group overflow-hidden cursor-pointer min-h-[50vh] md:min-h-0"
               onClick={() => navigate('/membership/elite')}
             >
               <div className="absolute inset-0 bg-neutral-900 z-0">

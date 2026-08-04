@@ -26,7 +26,7 @@ const Premium: React.FC = () => {
       </section>
 
       {/* Services List */}
-      <section className="px-6 md:px-12 max-w-[1800px] mx-auto space-y-40">
+      <section className="px-6 md:px-12 max-w-[1800px] mx-auto space-y-24 md:space-y-40">
         {PREMIUM_SERVICES.map((service, index) => (
           <motion.div 
             key={service.title}
@@ -40,7 +40,7 @@ const Premium: React.FC = () => {
                <img 
                 src={service.image} 
                 alt={service.title} 
-                className="w-full h-[500px] object-cover luxury-filter group-hover:scale-105 transition-transform duration-[1.5s]"
+                className="w-full h-[300px] md:h-[500px] object-cover luxury-filter group-hover:scale-105 transition-transform duration-[1.5s]"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-black/10 group-hover:bg-transparent transition-colors duration-500"></div>
             </div>
@@ -63,7 +63,7 @@ const Premium: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="group relative h-[600px] overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
@@ -84,7 +84,7 @@ const Premium: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="group relative h-[600px] lg:mt-24 overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] lg:mt-24 overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
@@ -105,7 +105,7 @@ const Premium: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="group relative h-[600px] overflow-hidden cursor-pointer"
+            className="group relative h-[400px] md:h-[600px] overflow-hidden cursor-pointer"
             whileHover={{ scale: 1.02 }}
           >
             {/* Golden glow overlay */}
